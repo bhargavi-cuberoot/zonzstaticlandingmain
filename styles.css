@@ -2384,6 +2384,8 @@ footer p {
   padding: 0.5rem;
   margin-bottom: 20px;
   position: relative;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 .box:hover .box-content{
   transform:rotateY(180deg)
@@ -2678,9 +2680,25 @@ footer p {
   .blogsgrid-container{
     grid-template-columns: repeat(2, 1fr);
   }
+  .aboutgridcontainer{
+    flex-direction: column;
+  }
 }
 @media (max-width:450px) {
   .blogsgrid-container{
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .flipboxes{
+    flex-direction: column;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .box{
+    margin-right: 0%;
+    margin-left: 0;
+  }
+  .aboutgridcontainer{
+    flex-direction: column;
   }
 }
