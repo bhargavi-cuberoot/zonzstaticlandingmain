@@ -2673,3 +2673,14 @@ footer p {
   color: #0A7CFF;
   text-decoration: none;
 }
+
+@media (max-width:767px) {
+  .blogsgrid-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width:450px) {
+  .blogsgrid-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
