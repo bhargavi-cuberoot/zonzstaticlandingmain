@@ -1565,7 +1565,7 @@ footer p {
 .aboutpage_container {
   max-width: 100rem;
   background-color: #FAFAFA;
-  margin: 84px auto;
+  margin:auto;
   /* top:50%; */
   /* padding: 1rem; */
   display: flex;
@@ -1687,6 +1687,7 @@ footer p {
   .about-heading {
     font-size: 18px;
   }
+
 
   .about_subheading {
     font-size: 16px;
@@ -2223,7 +2224,7 @@ footer p {
   width:100%;
   height:100%;
   transform-style:preserve-3d ;
-  transition: transform 0.5s;
+  transition: transform 1.4s;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -2628,6 +2629,18 @@ footer p {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+
+.aboutpage-heading {
+  color: var(--clr-warning);
+  font-size: 20px;
+  font-weight: bold;
+  padding:0;
+  margin-top: 7%; 
+  margin-bottom: 0%; 
+  text-align: center;
+  position: relative;
+}
+
 @media (max-width: 1024px) {
   .blog-text, .blogs-text {
       text-align: center;
@@ -2638,6 +2651,10 @@ footer p {
 }
 
 @media (max-width: 768px) {
+  .aboutpage-heading{
+    font-size: 18px;
+    margin-top: 10%;
+  }
   .blog-text, .blogs-text {
       text-align: center;
       position: absolute;
@@ -2658,5 +2675,12 @@ footer p {
     }
     #blog3{
     background-size: cover;
+  }
+}
+
+@media(max-width:550px){
+  .aboutpage-heading{
+    font-size: 18px;
+    margin-top: 15%;
   }
 }
