@@ -400,9 +400,9 @@ header {
   text-decoration: none;
   -ms-user-select: none;
   user-select: none;
-  padding: var(--padding-base);
+  padding: 8px 8px;
   border-radius: var(--border-radius-base);
-  font-size: var(--fs-300);
+  font-size: 14px;
   /* font-weight: 600; */
   font-weight: 500;
   color: var(--clr-white);
