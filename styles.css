@@ -2942,3 +2942,15 @@ border: 1px solid var(--clr-warning);
       width: 90%;
   }
 }
+#contactfooter{
+  padding-top: 12rem;
+}
+@media (max-width:1920px) {
+  #contactfooter{
+    padding-top: 21rem;
+  }
+  .aboutpage-heading{
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+  }
+}
