@@ -58,19 +58,16 @@
                 <input type="submit" value="Login" class="signupbtn">
                 <p class="social-text">Or Sign in with social platform</p>
                 <div class="social-media">
-                    <a href="#" class="socialmedia-icons">
+                  <div class="googlebtn">
+                  <button class="iconbtn"><a href="#" class="socialmedia-icons">
                         <i class="fab fa-facebook"></i>
-                    </a>
-                    <a href="" class="socialmedia-icons">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="" class="socialmedia-icons">
+                    </a></button></div>
+                    <div class="linkedinbtn">
+                    <button class="iconbtn"><a href="" class="socialmedia-icons">
                         <i class="fab fa-google"></i>
-                    </a>
-                    <a href="" class="socialmedia-icons">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
+                    </a></button></div>
                 </div>
+                <p style="color:#351d74;">New to ZonZ? <a href="#" id="sign-up-btn" style="text-decoration: none; color: #ff9000;"> Sign up</a></p>
                 <p class="account-text">Don't have an account? <a href="#" id="sign-up-btn2">Sign up</a></p>
             </form>
             <form action="" class="sign-up-form" id="signupform">
@@ -90,19 +87,16 @@
                 <input type="submit" value="Sign up" class="signupbtn">
                 <p class="social-text">Or Sign in with social platform</p>
                 <div class="social-media">
-                    <a href="#" class="socialmedia-icons">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                    <a href="" class="socialmedia-icons">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="" class="socialmedia-icons">
-                        <i class="fab fa-google"></i>
-                    </a>
-                    <a href="" class="socialmedia-icons">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
+                  <div class="googlebtn">
+                    <button class="iconbtn"><a href="#" class="socialmedia-icons">
+                          <i class="fab fa-facebook"></i>
+                      </a></button></div>
+                      <div class="linkedinbtn">
+                      <button class="iconbtn"><a href="" class="socialmedia-icons">
+                          <i class="fab fa-google"></i>
+                      </a></button></div>
                 </div>
+                    <p style="color:#351d74;">Already a member? <a href="#" id="sign-in-btn" style="text-decoration: none; color: #ff9000;"> Sign in</a></p>
                 <p class="account-text">Already have an account? <a href="#" id="sign-in-btn2">Sign in</a></p>
             </form>
         </div>
@@ -111,7 +105,7 @@
                 <div class="signupcontent">
                     <h3>Member of ZonZ?</h3>
                     <p>If already a member of ZonZ then why wait to Sign in?</p>
-                    <button class="signupbtn" id="sign-in-btn">Sign in</button>
+                    <!-- <button class="signupbtn" id="sign-in-btn">Sign in</button> -->
                 </div>
                 <img src="/public/images/demo/Signin.svg"  alt="" class="signupimage">
             </div>
@@ -119,7 +113,7 @@
                 <div class="signupcontent">
                     <h3>New to ZonZ?</h3>
                     <p>Click the Sign up button to explore the latest collection of ZonZ and stay updated.</p>
-                    <button class="signupbtn" id="sign-up-btn">Sign up</button>
+                    <!-- <button class="signupbtn" id="sign-up-btn">Sign up</button> -->
                 </div>
                 <img src="/public/images/demo/signup.svg" alt="" class="signupimage">
             </div>
@@ -186,7 +180,7 @@
         </div>
       </footer>
       <script>
-        const sign_in_btn = document.querySelector("#sign-in-btn");
+            const sign_in_btn = document.querySelector("#sign-in-btn");
             const sign_up_btn = document.querySelector("#sign-up-btn");
             const signupcontainer = document.querySelector(".signupcontainer");
             const sign_in_btn2 = document.querySelector("#sign-in-btn2");

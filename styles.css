@@ -2749,9 +2749,10 @@ footer p {
 .signintitle {
   font-size: 35px;
   margin-bottom: 10px;
+  color:#351d74;
 }
 .signininput-field {
-  width: 100%;
+  width: 80%;
   height: 50px;
   background: #fafafa;
   margin: 10px 0;
@@ -2773,8 +2774,8 @@ footer p {
   outline: none !important;
   width: 100%;
   font-size: 18px;
-  font-weight: 600;
-  color: #fafafa;
+  /* font-weight: 600;
+  color: #fafafa; */
 }
 .signupbtn {
   text-decoration: none;
@@ -2789,10 +2790,39 @@ footer p {
   color: var(--clr-white);
   border: 1px solid var(--clr-warning);
   background-color: #FF9900;
-  margin:10px 0;
+  margin:auto;
   text-transform: uppercase;
 }
+.iconbtn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.iconbtn{
+  border: 1px solid var(--clr-warning);
+  background-color: #FF9900;
+  text-decoration: none;
+  width:50px;
+  height:50px;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 0;
+  border-radius: var(--border-radius-base);
+  font-size: 16x;
+  font-weight: 600;
+}
+.iconbtn:hover{
+  text-decoration: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: var(--border-radius-base);
+  font-size: var(--fs-300);
+  font-weight: 500;
+  color: var(--clr-warning);
+  background: var(--clr-white);
+  border: 1px solid var(--clr-warning);
+  }
 .signupbtn:hover{
 text-decoration: none;
 -ms-user-select: none;
@@ -2807,26 +2837,30 @@ border: 1px solid var(--clr-warning);
 .social-text {
   margin: 10px 0;
   font-size: 16px;
+  color:#351d74;
 }
 .social-media {
   display: flex;
   justify-content: center;
 }
 .socialmedia-icons{
-  height: 45px;
-  width: 45px;
+  height: 50px;
+  width: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #000000;
-  border: 1px solid #000000;
+  color: #fff;
+  border: none;
   border-radius: 50px;
-  margin: 0 5px;
   text-decoration: none;
 }
 .socialmedia-icons:hover {
   color: #ff9000;
   border-color: #ff9000;
+}
+.googlebtn,
+.linkedinbtn {
+  margin: 0 10px;
 }
 .panels-container {
   position: absolute;
